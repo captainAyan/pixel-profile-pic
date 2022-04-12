@@ -5,6 +5,6 @@
     GIthub like pixel profile picture generator
     <br />
     <a href="https://captainayan.github.io/pixel-profile-pic">Website</a> &nbsp;
-    <a href="https://pixel-profile-pic.herokuapp.com">Api</a>
+    <a href="https://pixel-profile-pic.herokuapp.com/api">Api</a>
   </p>
 </p>
