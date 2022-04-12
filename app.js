@@ -49,6 +49,10 @@ app.get("/api", (req, res) => {
     });
 });
 
+app.use("*", (req, res, next) => {
+  res.send("Not found ⛔");
+});
+
 const limiter = rateLimit({
   windowMs: 10 * 60 * 1000, // 10 minutes
   max: process.env.NODE_ENV === "production" ? 100 : false,
