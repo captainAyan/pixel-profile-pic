@@ -17,7 +17,11 @@ module.exports = (width, cell, color, seed) => {
   for (var i = 0; i <= Math.floor(cell / 2); i++) {
     for (var j = 0; j <= cell; j++) {
       if (Math.floor(prng() * 9) > 4) {
-        ctx.fillStyle = color;
+        try {
+          ctx.fillStyle = color;
+        } catch (e) {
+          ctx.fillStyle = "#000000";
+        }
       } else {
         ctx.fillStyle = "#ffffff";
       }
