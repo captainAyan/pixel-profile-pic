@@ -20,7 +20,7 @@ app.use(helmet());
 app.get("/api", (req, res) => {
   const width = parseInt(req.query.width) || 20;
   const cell = parseInt(req.query.cell) || 7;
-  const color = "#" + req.query.color || "#7fffd4";
+  const color = "#" + (req.query.color || "7fffd4");
   const seed = req.query.seed || "default";
 
   const img = pixel_profile_pic(width, cell, color, seed);
