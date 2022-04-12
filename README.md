@@ -9,6 +9,18 @@
   </p>
 </p>
 
+## API Guide
+**URL :** [https://pixel-profile-pic.herokuapp.com/api](https://pixel-profile-pic.herokuapp.com/api)
+
+Param Name | Type | Description |
+--- | --- | --- |
+`width` | Number | Height and width of each cell in the grid
+`cell` | Number | Number of cells in x and y axes
+`color` | Hex Color Code *(E.g. 7fffd4)* | Code of cells (DO NOT use `#` symbol before the color code)
+`seed` | Text | Seed for Pseudo Random Number generation
+
+**Example :** [https://pixel-profile-pic.herokuapp.com/api?width=20&cell=5&color=4da3ff&seed=f](https://pixel-profile-pic.herokuapp.com/api?width=20&cell=5&color=4da3ff&seed=f)
+
 ## Getting Started
 - Clone the repo
 - Run the `app.js` using `node` for the API
