@@ -23,7 +23,6 @@
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "express-rate-limit": "^6.3.0",
-    "helmet": "^5.0.2",
     "prng": "^0.0.1",
     "pureimage": "^0.3.8"
   }
