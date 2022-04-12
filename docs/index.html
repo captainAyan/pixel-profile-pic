@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pixel Profile Pic</title>
+  </head>
+
+  <body>
+    <img src="" id="image" alt="" srcset="">
+
+    <fieldset>
+      <legend>Parameters</legend>
+
+      <table>
+        <tr>
+          <td><label for="width">Width</label></td>
+          <td><input type="number" id="width" value="20"></td>
+        </tr>
+
+        <tr>
+          <td><label for="cell">Cell</label></td>
+          <td><input type="number" id="cell" value="7"></td>
+        </tr>
+
+        <tr>
+          <td><label for="color">Color</label></td>
+          <td><input type="color" id="color" value="#7FFFD4"></td>
+        </tr>
+
+        <tr>
+          <td><label for="seed">Seed</label></td>
+          <td><input type="text" id="seed" value="seed"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button id="generate-btn">Generate</button>
+            &nbsp;
+            <button id="download">Download</button>
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+
+    <a id="link"></a>
+  </body>
+  <script>
+    const image = document.getElementById("image");
+    const link = document.getElementById('link');
+
+    document.getElementById("generate-btn").addEventListener("click", () => {
+      const width = document.getElementById("width").value;
+      const cell = document.getElementById("cell").value;
+      const color = document.getElementById("color").value;
+      const seed = document.getElementById("seed").value;
+    })
+
+    document.getElementById("download").addEventListener("click", () => {
+      link.click();
+    })
+
+  </script>
+</html>

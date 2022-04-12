@@ -1,0 +1,30 @@
+{
+  "name": "pixel-profile-pic",
+  "version": "1.0.0",
+  "description": "Github like pixel profile picture generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/captainAyan/pixel-profile-pic.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/captainAyan/pixel-profile-pic/issues"
+  },
+  "homepage": "https://github.com/captainAyan/pixel-profile-pic#readme",
+  "dependencies": {
+    "alea": "^1.0.1",
+    "canvas": "^2.9.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-rate-limit": "^6.3.0",
+    "helmet": "^5.0.2",
+    "prng": "^0.0.1",
+    "pureimage": "^0.3.8"
+  }
+}
