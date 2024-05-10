@@ -9,6 +9,8 @@
   </p>
 </p>
 
+![Poster](https://github.com/captainayan/pixel-profile-pic/blob/main/poster.png?raw=true)
+
 ## API Guide
 **URL :** [https://pixel-profile-pic.onrender.com/api](https://pixel-profile-pic.onrender.com/api)
 
